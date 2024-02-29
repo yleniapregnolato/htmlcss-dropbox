@@ -12,6 +12,12 @@ img {
 main {
     padding-top: auto;
 }
+
+footer {
+    justify-content: center;
+    /* debug */
+    background-color: black;
+}
 /* common */
 .container-big {
     width: 70%;
@@ -83,7 +89,7 @@ main {
 
 .business {
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 80px;
 }
 .box, .title {
     width: 100%;
@@ -128,7 +134,8 @@ main {
     flex-direction: column;
     /* debug */
     max-height: 800px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .small {
     /* debug */
@@ -181,3 +188,20 @@ main {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+/* /main */
+/* footer */
+.footer{
+   width: 75%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.footer-col {
+    width: calc(100% / 5 - 20px / 5);
+    /* debug */
+    background-color: lime;
+    border: 1px solid black;
+    height: 250px;
+}
+
+/* /footer */
