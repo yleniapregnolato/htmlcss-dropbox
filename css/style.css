@@ -163,11 +163,17 @@ footer {
     margin-top: 20px;
 }
 .square {
-    width: calc(100% / 3);
+    width: 50%;
     /* debug */
-    height: 300px;
     background-color: lightblue;
     border: 1px solid black;
+    
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
 }
 
 .half-col {
