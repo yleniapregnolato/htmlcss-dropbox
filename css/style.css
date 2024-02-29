@@ -23,6 +23,7 @@ main {
 
 .container-small {
     width: 60%;
+    gap: 10px;
     /* debug */
     background-color: aquamarine;
     border: 1px solid black;
@@ -80,19 +81,21 @@ main {
     justify-content: center;
     padding-top: 20px;
 }
-.title {
+.box, .title {
     width: 100%;
     /* debug */
     height: 100px;
     background-color: blue;
     border: 1px solid black;
-    margin-bottom: 15px;
 }
 .col {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px/3);
     /* debug */
-    height: 500px;
+    height: 600px;
     border: 1px solid green;
     background-color: grey;
-    margin-right: 10px;
+}
+
+.enterprise {
+    height: 150px;
 }
