@@ -20,15 +20,29 @@ main {
     border: 1px solid black;
     height: 400px;
 }
+
+.container-small {
+    width: 60%;
+    /* debug */
+    background-color: aquamarine;
+    border: 1px solid black;
+}
 /* utilites */
 :root {
     --header-heght: 40px;
     --foter-height: 150px;
     --hero-color: #B4D0E7;
 }
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
 /* header */
 .header {
-    display: flex;
     justify-content: space-between;
     position: fixed;
     top: 0;
@@ -60,3 +74,25 @@ main {
 }
 /* /hero */
 /* main */
+/* business plan section */
+
+.business {
+    justify-content: center;
+    padding-top: 20px;
+}
+.title {
+    width: 100%;
+    /* debug */
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+.col {
+    width: calc(100% / 3);
+    /* debug */
+    height: 500px;
+    border: 1px solid green;
+    background-color: grey;
+    margin-right: 10px;
+}
