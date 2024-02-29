@@ -8,3 +8,55 @@
 img {
     max-width: 100%;
 }
+
+main {
+    padding-top: auto;
+}
+/* common */
+.container-big {
+    width: 70%;
+    /* debug */
+    background-color: orange;
+    border: 1px solid black;
+    height: 400px;
+}
+/* utilites */
+:root {
+    --header-heght: 40px;
+    --foter-height: 150px;
+    --hero-color: #B4D0E7;
+}
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    /* debug */
+    height: var(--header-heght);
+    background-color: green;
+    border: 1px solid black;   
+}
+
+.logo, .login {
+    width: 30%;
+    /* debug */
+    background-color: red;
+    height: var(--header-heght);
+    border: 1px solid black;
+}
+/* /header */
+
+/* main */
+/* hero */
+.hero {
+   background-color: var(--hero-color);
+   padding-top: 70px;
+   display: flex;
+   justify-content: center;
+}
+/* /hero */
+/* main */
