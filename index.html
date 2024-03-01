@@ -15,9 +15,9 @@
 <body>
     <!-- header -->
     <!-- banner -->
-    <div class="header flex">
+    <header class="header flex">
         <div class="logo flex">
-          <div class="logo-img flex"><img src="./img/logo-small.png" alt="dropbox"></div>
+            <div class="logo-img flex"><img src="./img/logo-small.png" alt="dropbox"></div>
             <nav class="flex">
                 <ul class="menu flex gap-font">
                     <li><a href="">Perchè Dropbox</a></li>
@@ -25,7 +25,7 @@
                     <li><a href="">Piani e Prezzi</a></li>
                 </ul>
             </nav>
-            
+
         </div>
         <div class="login flex">
             <nav class="flex">
@@ -33,19 +33,37 @@
                     <li><a href="">Supporto</a></li>
                     <li><a href="">Contatta l'ufficio vendite</a></li>
                     <li><a href="">Accedi</a></li>
-                    <li class="start"><a href="">Inizia</a></li>
+                    <li class="button start"><a href="">Inizia</a></li>
                 </ul>
             </nav>
-            
+
         </div>
-    </div>
+    </header>
     <!-- /banner -->
     <!-- /header -->
     <!-- main -->
     <main>
         <!-- hero -->
-        <div class="hero">
-            <div class="container-big"></div>
+        <div class="hero flex">
+            <div class="container-big">
+                <h1>Tutto ciò che ti serve per il <br>lavoro, in un unico posto</h1>
+                <div class="flex">
+                    <div class="col-30">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
+                            <br>Dropbox business è
+                            più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il
+                            flusso di lavoro esistente.
+                        </p>
+                        <div class="free"><a href="">Inizia la tua prova gratutita</a></div>
+                        <div class=""><p>Annulla in qualsiasi momento</p></div>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                    <div class="col-70">
+                        <img src="./img/jumbo.png" alt="jumbo.logo">
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         <!-- /hero -->
         <!-- business plan section -->
@@ -54,7 +72,12 @@
                 <div class="container-small ">
                     <div class="wrap flex gap">
                         <div class="box title">
-                            <h2></h2>
+                            <h2>Trova il piano business che fa per te</h2>
+                            <input type="radio" name="fatturazione" id="radio-mensile">
+                            <label for="radio-mensile">Fatturazione Mensile</label>
+
+                            <input type="radio" name="fatturazione" id="radio-annuale">
+                            <label for="radio-annuale">Fatturazione annuale</label>
                         </div>
                         <div class="col"></div>
                         <div class="col"></div>
@@ -93,13 +116,13 @@
             </div>
         </section>
         <!-- /box section -->
-        <!-- last section -->
+        <!-- start business section -->
         <section>
             <div class="last-section flex">
                 <div class="container-small question"></div>
             </div>
         </section>
-        <!-- /last-section -->
+        <!-- /start business section -->
     </main>
     <!-- /main -->
     <!-- footer -->
@@ -114,4 +137,5 @@
     </footer>
     <!-- /footer -->
 </body>
+
 </html>
