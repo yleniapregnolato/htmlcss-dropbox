@@ -54,9 +54,8 @@ label {
 
 li {
     padding-top: 20px;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
 }
-
 
 /* /layout */
 /* common */
@@ -116,6 +115,10 @@ li {
 .f-s {
     font-size: 0.9rem;
 }
+
+.border {
+    border: 1px solid var(--font-color);
+}
 /* /utilities */
 /* header */
 .header {
@@ -149,9 +152,13 @@ li {
 .menu {
     font-size: 0.8rem;
     color: var(--font-color);
+    justify-content: center;
     align-items: center;
 }
 
+.menu-header {
+    padding-top: 0;
+}
 .button {
     font-size: 0.98em;
     background-color: var(--botton-color);
@@ -222,13 +229,12 @@ li {
 .box, .title {
     width: 100%;
 }
+
 .col {
     width: calc(100% / 3 - 20px/3);
     padding: 10px;
     /* debug */
-    height: 600px;
-    border: 1px solid var(--font-color);
-    /* background-color: grey; */
+    /* border: 1px solid var(--font-color); */
 }
 
 .billing {
@@ -252,6 +258,7 @@ li {
     font-size: 0.85rem;
     text-align: center;
     margin: 30px auto;
+    color: white;
 }
 
 .buy-now {
@@ -267,33 +274,52 @@ li {
 .fa-check {
     color: var(--botton-color);
 }
-.enterprise {
-    height: 150px;
+
+.title-enterprise {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid var(--font-color);
 }
 
+.text-enterprise {
+    width: 60%;
+    font-size: 0.75;
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.contact {
+    width: 40%;
+    justify-content: right;
+}
 .box-2 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 .col-60 {
     width: 60%;
-    /* debug */
-    height: 350px;
-    background-color: blueviolet;
-    border: 1px solid black;
 }
 
 .col-40 {
     width: 40%;
-    /* debug */
-    height: 350px;
-    background-color: lightgreen;
-    border: 1px solid black;
 }
 
+.col-text {
+    padding: 30px 30px;
+}
+
+.find-partner {
+    border: 1px solid var(--font-color);
+    padding: 10px;
+    color: var(--font-color);
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 70px;
+}
 .box-3 {
-    flex-direction: column;
-    /* debug */
     max-height: 800px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -301,16 +327,7 @@ li {
 
 .small {
     /* debug */
-    height: 300px;
-}
-
-.half-col-blue {
-    width: 60%;
-    /* debug */
-    background-color: blue;
-    border: 1px solid black;
-    height: 100px;
-    
+    /* height: 300px; */
 }
 
 .half-col-green {
