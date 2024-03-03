@@ -67,6 +67,7 @@ li {
 .container-small {
     width: 60%;
     max-width: 1100px;
+    align-items: center;
 }
 /* utilites */
 :root {
@@ -101,6 +102,9 @@ li {
     padding-top: 20px;
 }
 
+.p-l {
+    padding-left: 10px;
+}
 .m-l {
     margin-left: 10px;
 }
@@ -118,6 +122,14 @@ li {
 
 .border {
     border: 1px solid var(--font-color);
+}
+
+.m-t {
+    margin-top: 30px;
+}
+
+.m-b {
+    margin-bottom: 30px;
 }
 /* /utilities */
 /* header */
@@ -325,20 +337,13 @@ li {
     margin-bottom: 50px;
 }
 
-.half-col-green {
-    width: 40%;
-    /* debug */
-    background-color: lightgreen;
-    border: 1px solid black;
-    height: 100px;
-}
-
 .square-box {
     margin-top: 20px;
 }
 
 .square {
     width: calc(100% / 3);
+
     padding-bottom: 30%;
     position: relative;
 }
@@ -377,21 +382,72 @@ li {
     background-color: #FF1C1C;
 }
 
+.designt {
+    filter: invert(1);
+    padding-left: 10px;
+    padding-top: 100px;
+}
 
+.center {
+    background-color: #F5F5F5;
+}
+.designt-text {
+    padding-left: 10px;
+    margin-top: 30px;
+}
 
+.logo-square, .left:nth-child(1) {
+    background-color: #D5001F;
+    border: 0;
+}
+
+.logo-square, .left:nth-child(2) {
+    background-color: #B4D0E7;
+}
+
+.logo-square, .left:nth-child(3) {
+    background-color: #0D2481;
+}
+
+.logo-square, .left:nth-child(4) {
+    background-color: #FFD830;
+}
 .half-col {
     justify-content: center;
     background-color: var(--hero-color);
     padding: 10px;
 }
 
-.question {
-    /* debug */
-    height: 400px;
-    background-color: purple;
-    border: 1px solid black;
+.half-col-green {
+    width: 55%;
+    justify-content: right;
 }
 
+.half-col-blue {
+    width: 45%;
+}
+
+.start-free-text {
+    color: #61082B;
+    padding: 30px;
+}
+
+.start-free {
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.title-faq {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.faq-hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .last-section {
     justify-content: center;
     margin-top: 10px;
