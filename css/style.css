@@ -379,7 +379,7 @@ li {
 .designt {
     filter: invert(1);
     padding-left: 10px;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .center {
@@ -443,20 +443,14 @@ li {
     margin-bottom: 30px;
 }
 
-.faq {
-    display: block;
-}
 .answers {
     display: none;
 }
 
-.answers:hover {
+.faq:hover .answers {
     display: block;
 }
 
-.faq:hover {
-    display: none;
-}
 .last-section {
     justify-content: center;
     margin-top: 10px;
