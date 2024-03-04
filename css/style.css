@@ -244,8 +244,6 @@ li {
 .col {
     width: calc(100% / 3 - 20px/3);
     padding: 10px;
-    /* debug */
-    /* border: 1px solid var(--font-color); */
 }
 
 .billing {
@@ -342,15 +340,12 @@ li {
 
 .square {
     width: calc(100% / 3);
-
-    padding-bottom: 30%;
-    position: relative;
 }
 
 .logo-square {
     width: 50%;
     height: 50%;
-    position: absolute;
+    aspect-ratio: 1;
 }
 
 .logo-square img {
@@ -395,20 +390,20 @@ li {
     margin-top: 30px;
 }
 
-.logo-square, .left:nth-child(1) {
+.left:nth-child(1) {
     background-color: #D5001F;
     border: 0;
 }
 
-.logo-square, .left:nth-child(2) {
+.left:nth-child(2) {
     background-color: #B4D0E7;
 }
 
-.logo-square, .left:nth-child(3) {
+.left:nth-child(3) {
     background-color: #0D2481;
 }
 
-.logo-square, .left:nth-child(4) {
+.left:nth-child(4) {
     background-color: #FFD830;
 }
 .half-col {
@@ -446,6 +441,21 @@ li {
 .faq-hr {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.faq {
+    display: block;
+}
+.answers {
+    display: none;
+}
+
+.answers:hover {
+    display: block;
+}
+
+.faq:hover {
+    display: none;
 }
 .last-section {
     justify-content: center;
